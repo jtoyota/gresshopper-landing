@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en-US">
+
+	<head>
+  		<meta charset="utf-8">
+  		<link rel="icon" type="image/ico" href="_assets/favicon.png"/>
+  		<link rel="stylesheet" href="landing.css">
+  		<link href="https://fonts.googleapis.com/css?family=Muli:light,regular,bold,200, 400,800" rel="stylesheet">
+  		<title>Grasshopper Community</title>
+ 	</head>
+
+ 	<body>
+ 		<div class="intro">
+
+ 			<header>
+ 				<div class="logo">
+	 				<img src="_assets/grasshopper_logo.png" alt="Grashopper Logo">
+	 			</div>
+		 		<nav>
+		 				<a id = "linkContact">Contact</button>
+		 				<a id="linkAbout">About</a>
+		 		</nav>
+	 		</header>
+	 		<div class="project">
+		 			<h1>We are building a platform where immigrant women can connect with mentors and peers who will support them achieve their personal and professional goals.</h1>
+		 			<p>Visibility of each others challenges and achievements is a powerful tool to inspire us to  and our dreams, educate ourselves, and pursue amazing careers. We believe that a place to ask questions, exchange experiences, and discover opportunities can help us be better equipped to fulfill our potential.</p>
+
+			</div>
+			<a href="#formMain"><button>Sign up to receive updates</button></a>
+ 		</div>
+
+
+		
+		<div class="how">		
+			<h2>How it Works</h2>
+			<div class="mentor">
+				<h3>Be a mentor</h3>
+				<p>Maybe you don’t see yourself as a mentor right now, but your experience can hep others. When you signup as a mentor you will tell us about your background in five different areas that go beyond technical knowledge or a particular professional role. We will match you with someone who is looking for mentorship from someone like you. You can look at our suggestions and pick who you would like to advise.</p>
+			<p>Mentoring doesn't need to be a huge time commitment. The first step is to send your mentors an encouraging message. We will help you on every step of the way!</p>
+			</div>
+			<div class="mentee">
+				<h3>Be a mentee</h3>
+				<p>Having a career in a new country is hard, but you don’t have to do it by yourself. Whether you need to get recertified to work in your field or looking for a career shift, you can connect with other professionals who transitioned to the US job market and you can learn from their experience.</p>
+				<p>We want to connect immigrant women with professional who can help them advance their careers. After you create your profile, we will match you with one of the mentors using our custom algorithm and provide you with tips on how to make the most of this relationship.</p>
+			</div>
+		</div>
+
+ 		<form id="formMain" action="https://formspree.io/spsemcarro@gmail.com" method="POST">
+
+ 				<input type="text" name="_gotcha" style="display:none" />
+		 		<label for="name">Full Name</label>
+				<input id="name" name="fullName"type="text" placeholder="Enter your name">
+				
+				<label for="email">Email</label>
+				<input id="email" name="email" type="email" placeholder="Enter your email">
+	 			<label for="position">Current or Last Position</label>
+				<input id="position" name="position" type="text" placeholder="Enter your current or last position">
+
+				<label for="industry">Industry</label>
+				<select id="courses" name="Industry">
+					<option value= "arts">Arts and Entertainment</option>
+					<option value= "business">Business Administration</option>
+					<option value= "health">Healthcare and Medicine</option>
+					<option value= "industry">Industry and Manufacturing</option>
+					<option value= "science">Science and Technology</option>
+					<option value= "DS">Data Science</option>
+				</select>
+
+				<hr>
+				
+				<label for="style"><span class="preferenceName">My Style:</span> Assessing personal presentation, communicating effectively, influencing key partners.</label>
+			    <ul class='likert'>
+			    	<li>Newbie</li>
+			     	<li><input type="radio" name="style" value="1"></li>
+			     	<li><input type="radio" name="style" value="2"></li>
+			     	<li><input type="radio" name="style" value="3"></li>
+			    	<li><input type="radio" name="style" value="4"></li>
+			    	<li><input type="radio" name="style" value="5"></li>
+			      	<li>Expert</li>
+			    </ul>
+
+
+				<label for="career"><span class="preferenceName">My Career:</span> Planning career growth, navigating goals and strategies, honing organization savvy.</label>
+			    <ul class='likert'>
+			    	<li>Newbie</li>
+			    	<li><input type="radio" name="career" value="1"></li>
+			      	<li><input type="radio" name="career" value="2"></li>
+			      	<li><input type="radio" name="career" value="3"></li>
+			      	<li><input type="radio" name="career" value="4"></li>
+			      	<li><input type="radio" name="career" value="5"></li>
+			      	<li>Expert</li>
+			    </ul>
+
+			    <label for="craft"><span class="preferenceName">My Craft:</span> Developing functional/technical skills, innovating and achieving excellence.</label>
+			    <ul class='likert'>
+			    	<li>Newbie</li>
+			      	<li><input type="radio" name="craft" value="1"></li>
+			      	<li><input type="radio" name="craft" value="2"></li>
+			      	<li><input type="radio" name="craft" value="3"></li>
+			      	<li><input type="radio" name="craft" value="4"></li>
+			      	<li><input type="radio" name="craft" value="5"></li>
+			      	<li>Expert</li>
+			    </ul>
+
+			    <label for="life"><span class="preferenceName">My Life:</span> Maintaining work/life balance, managing life changes, dealing with competing demands.</label>
+			    <ul class='likert'>
+			    	<li>Newbie</li>
+			      	<li><input type="radio" name="life" value="1"></li>
+			     	<li><input type="radio" name="life" value="2"></li>
+			      	<li><input type="radio" name="life" value="3"></li>
+			      	<li><input type="radio" name="life" value="4"></li>
+			      	<li><input type="radio" name="life" value="5"></li>
+			      	<li>Expert</li>
+			    </ul>
+
+			    <label for="world"><span class="preferenceName">My World:</span> Getting involved in the community, promoting opportunities.</label>
+			    <ul class='likert'>
+			    	<li>Newbie</li>
+			      	<li><input type="radio" name="world" value="1"></li>
+			      	<li><input type="radio" name="world" value="2"></li>
+			      	<li><input type="radio" name="world" value="3"></li>
+			      	<li><input type="radio" name="world" value="4"></li>
+			      	<li><input type="radio" name="world" value="5"></li>
+			      	<li>Expert</li>
+			    </ul>
+
+			<button>Sign up</button>
+
+ 		</form>
+ 		<footer></footer>
+
+ 	<div class="overlay contact">
+ 		<div class="modal">
+ 			<span class="closeModal">&times;</span>
+ 			<h3>Send us a message</h3>  
+      		<form id="formContact" action="https://formspree.io/spsemcarro@gmail.com" method="POST">
+                <input type="text" name="_gotcha" style="display:none" />
+                <label for="name">Name</label>
+                <input id="name" name="fullName"type="text" placeholder="Enter your name">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Enter your email">
+                <label for="email">Message</label>
+                <textarea id="message" name="message" type="text" placeholder="Enter your message"></textarea><br>
+				<button id="sendButton">Send</button>
+            </form> 
+ 		</div>
+ 	</div>
+
+ 	<div class="overlay about">
+ 		<div class="modal">
+ 			<span class="closeModal">&times;</span>
+ 			<h3>About the project</h3>
+			<p>Grasshopper is a platform where immigrant women can connect with mentors and peers who will support them achieve their personal and professional goals.<br>
+			Visibility of each others challenges and achievements is a powerful tool to inspire us to find our dreams, educate ourselves, and pursue amazing careers.<br>
+			We believe that a place to ask questions, exchange experiences, and discover opportunities can help us be better equipped to fulfill our potential.</p>
+
+			<h3>About us</h3>
+			<p>We are two Brazilians who went through career change in the US</p>
+			<strong>Jessica Toyota:</strong> works as a product designer and studies Interaction Design.<br>
+			<strong>Marina Bichoffe:</strong> transitioned from a career in sales and now is a software engineer. She is using her experience to help others navigate the US job market.</p>
+ 		</div>
+ 	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>	
+	<script src="main.js"></script>
+ 	</body>
+ </html>
